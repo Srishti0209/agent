@@ -18,7 +18,7 @@ export function App() {
   const { exit } = useApp();
   const [messages, setMessages] = useState<Message[]>([]);
   const [conversationHistory, setConversationHistory] = useState<
-    ModelMessage[] | undefined
+    ModelMessage[]
   >([]);
   const [isLoading, setIsLoading] = useState(false);
   const [streamingText, setStreamingText] = useState("");

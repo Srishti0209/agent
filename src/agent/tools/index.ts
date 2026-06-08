@@ -1,6 +1,6 @@
-import { dateTime } from "./dateTime.ts";
+import { getDateTime } from "./dateTime.ts";
 
 //ai tools combined for the agent
 export const tools = {
-    dateTime
-}
+  getDateTime: getDateTime,
+};
